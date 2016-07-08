@@ -1,0 +1,37 @@
+#example1 .address{
+    width: 303px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid rgb(104, 104, 104);
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    font-size: 0.8em;
+    line-height: 25px;
+}
+
+#example1 .address .ffield {
+    position: relative;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#example1 .address input[type="text"] {
+    display: inline-block;
+    height: 23px;
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial;
+    font-size: 13px !important;
+    text-indent: 8px;
+    line-height: 15px;
+    border: 1px solid #C2C2C2;
+    border-top: 1px solid #919292;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px #e5e5e5 inset;
+    outline: none;
+    width: 300px;
+}
+
